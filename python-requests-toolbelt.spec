@@ -10,7 +10,6 @@ BuildRequires:	pkgconfig(python3)
 BuildRequires:  python%{pyver}dist(betamax)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:  python%{pyver}dist(pyopenssl)
-BuildRequires:  python%{pyver}dist(pytest)
 BuildRequires:  python%{pyver}dist(requests)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
@@ -26,9 +25,8 @@ some idiosyncracies prevent effective or sane testing on that version.
 %files
 %license LICENSE
 %doc README.rst HISTORY.rst
-%{_bindir}/requests-toolbelt
-%{py_sitedir}/requests-toolbelt
-%{py_sitedir}/requests-toolbelt-*.*-info
+%{py_sitedir}/requests_toolbelt
+%{py_sitedir}/requests_toolbelt-*.*-info
 
 #--------------------------------------------------------------------
 
@@ -40,5 +38,4 @@ some idiosyncracies prevent effective or sane testing on that version.
 
 %install
 %py_install
-
 
