@@ -1,7 +1,7 @@
 Summary:	A utility belt for advanced users of python-requests
 Name:		python-requests-toolbelt
-Version:	0.10.1
-Release:	2
+Version:	1.0.0
+Release:	1
 License:	Apache-2.0
 Group:		Development/Python
 URL:		https://pypi.org/project/requests-toolbelt/
