@@ -1,15 +1,13 @@
 Summary:	A utility belt for advanced users of python-requests
 Name:		python-requests-toolbelt
 Version:	1.0.0
-Release:	3
+Release:	4
 License:	Apache-2.0
 Group:		Development/Python
 URL:		https://pypi.org/project/requests-toolbelt/
 Source0:	https://files.pythonhosted.org/packages/source/r/requests-toolbelt/requests-toolbelt-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
-BuildRequires:  python%{pyver}dist(betamax)
 BuildRequires:	python%{pyver}dist(pip)
-BuildRequires:  python%{pyver}dist(pyopenssl)
 BuildRequires:  python%{pyver}dist(requests)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
